@@ -1,3 +1,5 @@
+/*Header Section*/
+
 .banner {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -69,6 +71,7 @@
 }
 
 
+
 /*Main section*/
 
 .main-section-container {
@@ -133,6 +136,9 @@
     margin-top: 10px;
 }
 
+
+/*Main 2nd Part*/
+
 .second-container {
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -160,10 +166,14 @@
     padding-bottom: 20px;
 }
 
+
+/*Main 3rd Part*/
+
 .online {
     text-align: center;
 }
-.funny-content{
+
+.funny-content {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -188,42 +198,109 @@
     gap: 20px;
     padding-left: 120px;
 }
-.third{
+
+.third {
     padding-left: 50px;
 }
-.fourth{
+
+.fourth {
     padding-left: 110px;
 }
-.second{
+.second {
     padding-left: 10px;
 }
-.primary-container{
+
+
+/*Main 4th Part*/
+
+.primary-container {
     display: flex;
     background: #FFF;
     padding-top: 70px;
     gap: 120px;
 }
-.primary-paragraph{
+
+.primary-paragraph {
     padding-top: 200px;
     padding-right: 80px;
     text-align: right;
     padding-left: 100px;
 }
-.funny-caption{
+
+.funny-caption {
     padding-bottom: 50px;
-    
+
 }
-.img-3{
+
+.img-3 {
     padding-right: 130px;
 }
-.mini-img{
+
+.mini-img {
     position: relative;
     bottom: 300px;
     right: 150px;
 }
 
 
+/*Main 5th part*/
 
+.last-sec-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 80px;
+    margin-top: -230px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.second {
+    display: flex;
+    gap: 10px;
+}
+
+.second:hover {
+    border: 2px solid red;
+    border-radius: 40px;
+    color: #FF42A5;
+
+}
+
+
+/*Footer Section*/
+
+.foot {
+    background: #0B0223;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer-img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.amer {
+    color: #FFF;
+}
+
+.title {
+    color: #FFF;
+   justify-content: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    display:flex ;
+    list-style: none;
+    gap: 50px;
+}
+.title-icon {
+   text-align: center;
+    padding-top: 40px;
+    gap: 200px;
+    padding-bottom: 30px;
+}
 
 
 
