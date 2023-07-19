@@ -204,15 +204,22 @@
     gap: 120px;
 }
 .primary-paragraph{
-    padding-top: 300px;
-    padding-left: 200px;
+    padding-top: 200px;
+    padding-right: 80px;
     text-align: right;
+    padding-left: 100px;
 }
 .funny-caption{
     padding-bottom: 50px;
+    
 }
 .img-3{
     padding-right: 130px;
+}
+.mini-img{
+    position: relative;
+    bottom: 300px;
+    right: 150px;
 }
 
 
